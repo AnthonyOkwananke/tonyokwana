@@ -1,0 +1,129 @@
+.about-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
+    background-color:#DCDCDC;
+}
+
+.abt-btn-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
+    background-color:#DCDCDC;
+}
+
+.about-row {
+    align-items: center; 
+    display: flex;
+    margin-right: -15px;
+    margin-bottom: -15px;
+    margin-left: -15px;
+    flex-wrap: wrap;
+    align-content: space-between;
+ }
+
+ .col {
+     margin-bottom: 15px;
+     padding-right: 15px;
+     padding-left: 15px;
+     flex: 1;
+     max-width: 50%;
+     flex-basis: 50%;
+ }
+
+ .about-text-wrapper {
+    max-width: 555px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    padding-right: 50px;
+    background-color:	#808080;
+    border-radius: 10px;
+}
+h1 {
+    padding-left: 0px;
+    padding-right: 70px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    line-height: 85px;
+    color: black;
+}
+
+span {
+    font-size: 70px;
+    line-height: 85px;
+    font-style: italic;
+    font-family: Canela, serif;
+}
+
+.about-image-wrapper {
+    max-width: 555px; 
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ }
+
+ .about-image {
+    max-width: 95%;
+    padding-right: 0;
+    margin: 0 0 0 10px;  
+ }
+
+ img {
+    border-radius: 10px;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+@media screen and (max-width: 991px) {
+
+    .col {
+        margin-top: 15px;
+        margin-right: 15px;
+        margin-left: 20px;
+    }
+    .about-container {
+        padding-right: 30px;
+        padding-left: 30px;       
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .hero-container > h1 {
+      font-size: 50px;
+      margin-top: -300px;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    .about-text-wrapper {
+        padding-top: 0px;
+        padding-bottom: 65px; 
+        padding-right: 50px;
+        padding-left: 50px;      
+    }
+
+    .about-image-wrapper {
+        padding-top: 0px;
+        margin-right: -13px;
+        margin-left: -18px;
+    }
+
+    .col {
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+}

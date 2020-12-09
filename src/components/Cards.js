@@ -5,42 +5,33 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
-            <CardItem
-              src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
-              path='/services'
+          <CardItem
+              src='images/mywebsite.png'
+              text='A fully responsive personal website built with React.js, React Router, React Hook, HTML, and CSS.'
+              label='Website'
+              pathname='https://github.com/AnthonyOkwananke/CurrentSeasonDisplay'
             />
             <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
-              path='/services'
+              src='images/Season-Display-App.png'
+              text='An app that displays a UI corresponding to the
+              current weather season given the geolocation of a place
+              and time of the year.'
+              label='Season'
+              pathname='https://github.com/AnthonyOkwananke/CurrentSeasonDisplay'
+            />
+            <CardItem
+              src='images/Step_Wizard.png'
+              text='A multistep form that takes the user through 
+              the necessary steps in filling out a form'
+              label='Form'
+              pathname='https://github.com/AnthonyOkwananke/stepwizard'
             />
           </ul>
           <ul className='cards__items'>
-            <CardItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
-              path='/services'
-            />
-            <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
-              path='/products'
-            />
-            <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
-              path='/sign-up'
-            />
+      
           </ul>
         </div>
       </div>

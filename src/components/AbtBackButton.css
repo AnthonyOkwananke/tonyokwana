@@ -1,0 +1,19 @@
+.btn {
+    margin-right: 250px;
+    background-color: #242424;
+    
+}
+
+@media screen and (max-width: 960px) {
+    .btn {
+        max-width: 150px;
+        margin-left: 180px; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .btn {
+        max-width: 150px;
+        margin-left: 180px;
+    }
+}
