@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/tonyokwana/static/css/main.58456e87.chunk.css",
-    "main.js": "/tonyokwana/static/js/main.f70bb5f3.chunk.js",
-    "main.js.map": "/tonyokwana/static/js/main.f70bb5f3.chunk.js.map",
+    "main.js": "/tonyokwana/static/js/main.60bbea41.chunk.js",
+    "main.js.map": "/tonyokwana/static/js/main.60bbea41.chunk.js.map",
     "runtime-main.js": "/tonyokwana/static/js/runtime-main.5d5cd576.js",
     "runtime-main.js.map": "/tonyokwana/static/js/runtime-main.5d5cd576.js.map",
     "static/js/2.56a785bd.chunk.js": "/tonyokwana/static/js/2.56a785bd.chunk.js",
     "static/js/2.56a785bd.chunk.js.map": "/tonyokwana/static/js/2.56a785bd.chunk.js.map",
     "index.html": "/tonyokwana/index.html",
-    "precache-manifest.988cb8aa625cf647fbbea021fa3ab5ef.js": "/tonyokwana/precache-manifest.988cb8aa625cf647fbbea021fa3ab5ef.js",
+    "precache-manifest.e6f471b7e8651ec82df3d74912a15a62.js": "/tonyokwana/precache-manifest.e6f471b7e8651ec82df3d74912a15a62.js",
     "service-worker.js": "/tonyokwana/service-worker.js",
     "static/css/main.58456e87.chunk.css.map": "/tonyokwana/static/css/main.58456e87.chunk.css.map",
     "static/js/2.56a785bd.chunk.js.LICENSE.txt": "/tonyokwana/static/js/2.56a785bd.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.5d5cd576.js",
     "static/js/2.56a785bd.chunk.js",
     "static/css/main.58456e87.chunk.css",
-    "static/js/main.f70bb5f3.chunk.js"
+    "static/js/main.60bbea41.chunk.js"
   ]
 }
