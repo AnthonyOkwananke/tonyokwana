@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "49883e6411ab2357b5a4066542c17571",
+    "revision": "af2bb8992ea7f2dc1783d8716ba70183",
     "url": "/tonyokwana/index.html"
   },
   {
-    "revision": "4ae8682706876759b75f",
+    "revision": "7192485a3dfdd2a6ef75",
     "url": "/tonyokwana/static/css/main.58456e87.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tonyokwana/static/js/2.56a785bd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4ae8682706876759b75f",
-    "url": "/tonyokwana/static/js/main.68f38bf3.chunk.js"
+    "revision": "7192485a3dfdd2a6ef75",
+    "url": "/tonyokwana/static/js/main.f70bb5f3.chunk.js"
   },
   {
     "revision": "a189a803053fd3d382a4",
