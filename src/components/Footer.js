@@ -5,16 +5,16 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <div className='footer-container'>
-      <div class='footer-links'>
+      <div className='footer-links'>
         <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <h2>Contact</h2>
             <a href="mailto:anthonyokwananke@gmail.com" className="contact-mail" target="_blank">anthonyokwananke@gmail.com</a>
             <a href="tel: 4036306292" className="contact-phone">+1 (403) 630-6292</a>
           </div>
         </div>
         <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <h2>Social Media</h2>
             <a href="https://www.linkedin.com/in/anthony-okwananke"
               rel="noopener noreferrer"
@@ -36,9 +36,9 @@ function Footer() {
           </div>
         </div>
       </div>
-      <section class='copyright'>
-        <div class='cpoyright-wrap'>
-          <small class='website-rights'>Copyright © Anthony Okwananke. All rights reserved.</small>
+      <section className='copyright'>
+        <div className='cpoyright-wrap'>
+          <small className='website-rights'>Copyright © Anthony Okwananke. All rights reserved.</small>
         </div>
       </section>
     </div>
