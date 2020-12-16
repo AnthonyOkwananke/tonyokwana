@@ -8,14 +8,14 @@ function Cards() {
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
-          <CardItem
+            <CardItem
               src='images/mywebsite.png'
               text='A fully responsive personal website built with React.js, React Router, React Hook, HTML, and CSS.'
               label='Website'
               pathname='https://github.com/AnthonyOkwananke/CurrentSeasonDisplay'
             />
             <CardItem
-              src='images/Season-Display-App.png'
+              src='images/season-display-app.png'
               text='An app that displays a UI corresponding to the
               current weather season given the geolocation of a place
               and time of the year.'
@@ -23,15 +23,12 @@ function Cards() {
               pathname='https://github.com/AnthonyOkwananke/CurrentSeasonDisplay'
             />
             <CardItem
-              src='images/Step_Wizard.png'
+              src='images/step_wizard.png'
               text='A multistep form that takes the user through 
               the necessary steps in filling out a form'
               label='Form'
               pathname='https://github.com/AnthonyOkwananke/stepwizard'
             />
-          </ul>
-          <ul className='cards__items'>
-      
           </ul>
         </div>
       </div>
